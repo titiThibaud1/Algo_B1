@@ -34,11 +34,16 @@ Note : passable, echec, excellent en float
 Forcement entre 0 et 20 sinon erreur
 Salle de classe
 
+
 Pseudo code :
+
 input note
 (input classe)
+(lore)
+
 Si note < 0 ou > 20
-retourner une erreur
+	retourner une erreur
+	redemander la note
 Si note < 7
 	Note echec
 Si note > 13
@@ -46,5 +51,5 @@ Si note > 13
 Sinon
 	Note passable
 
-Afficher le numero de la salle + description
+Afficher le résultat + le numero de la salle + lore
 */
