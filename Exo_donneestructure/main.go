@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	var DispoPlaces = [25]bool{true, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true}
+	var DispoPlaces = [25]bool{true, false, true, false, true, true, true, false, false, true, true, false, true, false, true, true, true, false, false, true, true, true, false, true, true}
 	for i := 1; i <= len(DispoPlaces); i++ {
 		if DispoPlaces[i-1] {
 			fmt.Println("La place numéro", i, "est \033[032mdisponible\033[0m")
