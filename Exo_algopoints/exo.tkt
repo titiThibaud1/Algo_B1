@@ -1,0 +1,59 @@
+Algo 1 
+
+1
++1
++2
+= 4 points
+= constante
+
+
+Algo 2 
+
+2
++3*n
+= linéaire
+
+
+Algo 3 
+
+1
++2
++2
++(3+2)*n
+= linéaire
+
+
+Algo 4
+
+2
++2
++2
++ (3*n)*(3*n)
+= n²
+= quadratique
+
+
+Algo 5 
+
+1
++2
++2
++2
++ (3*n)*(3*n)*2
+= 2ex n
+= exponentielle
+
+
+Algo 6
+
+ 
+
+
+Algo 7
+
+0
++2
++2
++(3+2)*longueur
+
+= factorielle
