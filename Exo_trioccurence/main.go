@@ -19,9 +19,9 @@ func main() {
 
 	start := time.Now() //Début du timer
 
-	ValeurMax := MaxValue(ListeEntrée)         //Appel de la fonction MaxValue qui sélectionne la valeur max du tableau
-	ListeSortie := Tri(ListeEntrée, ValeurMax) //Appel de la fonction Tri qui tri le tableau
-	fmt.Println(ListeSortie)                   //Affichage de ListeSortie
+	ValeurMax := MaxValue(ListeEntrée)               //Appel de la fonction MaxValue qui sélectionne la valeur max du tableau
+	ListeSortie := Occurence(ListeEntrée, ValeurMax) //Appel de la fonction Tri qui tri le tableau
+	fmt.Println(ListeSortie)                         //Affichage de ListeSortie
 
 	fin := time.Since(start) //Fin du timer
 	fmt.Println(fin)         //Affichage du temps de traitement
@@ -37,7 +37,7 @@ func MaxValue(ListeEntrée []int) int { //Fonction MaxValue pour déterminer le 
 	return ValeurMax //Retour du nombre maximum
 }
 
-func Tri(ListeEntrée []int, ValeurMax int) []int { //Fonction Tri avec un tableau de 8 valeur en entrée et un tableau de taille x en sortie
+func Occurence(ListeEntrée []int, ValeurMax int) []int { //Fonction Tri avec un tableau de 8 valeur en entrée et un tableau de taille x en sortie
 	var ListeSortie []int                                              //Initialisation de ValeurMax, tableau qui affichera le résultat
 	for CounterValue := 0; CounterValue <= ValeurMax; CounterValue++ { //Boucle qui va parcourir chaque nombre jusqu'à la valeur max
 		var ConteurNb int                                                        //Initialisation de CounterNb qui se fera écraser à chaque lecture de la boucle prédécente
