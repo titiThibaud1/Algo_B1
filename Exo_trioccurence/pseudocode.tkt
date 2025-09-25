@@ -1,0 +1,22 @@
+func main
+
+TAB = []int{RANDOM}
+
+
+func MaxValue
+
+ValeurMax = 0
+POUR i de 0 à TAILLE de TAB (exclue) par pas de 1
+    SI ValeurMax < TAB[i]
+        Alors ValeurMax = TAB[i]
+
+
+func Occurence
+
+ListeSortie = 0
+POUR CounterValue de 0 à ValeurMax (inclue) par pas de 1
+    CounterNb = 0
+    POUR CounterListe de 0 à TAILLE de ListeEntrée par pas de 1
+        SI ListeEntrée[CounterListe] = CounterValue
+            Alors CounterNb par pas de 1
+        AJOUTER CounterNb à ListeSortie
